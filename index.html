@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telefonos Kódvadászat</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            background-color: #f4f4f9;
+        }
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        p {
+            font-size: 1.1em;
+            color: #333;
+            margin-bottom: 25px;
+        }
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            margin: 10px 0;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            border-radius: 8px;
+            transition: transform 0.2s, background-color 0.2s;
+        }
+        .btn:active {
+            transform: scale(0.98);
+        }
+        .matrix { background-color: #2c3e50; }
+        .outdoor { background-color: #27ae60; }
+        .qr { background-color: #2980b9; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <p>Kedves látogató!<br><br>Ez egy telefonos játékfelület.</p><br>
+A telefonodon engedélyezni kell a kamera használatát és utána egy QR kód beolvasót kapsz, amivel a helyszínen részt tudsz venni egy Kódkereső játékban.</br>
+<br>Az alábbi lehetőségek közül választhatsz:</br>
+
+        <a href="http://www.megalodusz.qubit.io/afutam" class="btn matrix">1. Mátrix pályák</a>
+        <a href="http://www.megalodusz.qubit.io/qrfutam" class="btn outdoor">2. Szabadtéri pontvadászat</a>
+        <a href="http://www.megalodusz.qubit.io/futam" class="btn qr">3. QR kódvadászat</a>
+    </div>
+
+</body>
+</html>
